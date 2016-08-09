@@ -1,0 +1,335 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS Reset */
+
+h1 {
+	font-size: 64px;
+	font-family: Oswald, Tahoma;
+	font-weight: 400;
+	font-size: 130px;
+}
+
+h2 {
+	font-size: 53px;
+	color: #009DDC;
+	font-family: Oswald, Tahoma;
+	font-weight: 300;
+
+}
+
+nav {
+	height: 70px;
+	color: #000;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.avatar {
+	width: 60px;
+	border-radius: 60px;
+	float: left;
+	padding: 5px;
+}
+
+nav ul li {
+	display: inline;
+	line-height: 70px;
+	margin: 10px;
+	font-family: Roboto, Tahoma;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+nav ul li a:hover {
+	color: #C6DABF;
+}
+
+.landing-image {
+	background-image: url("../images/landing.png");
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.landing-image h1 {
+	color: #fff;
+	line-height: 600px;
+
+}
+
+.intro-avatar {
+	width: 150px;
+	border-radius: 100%;
+	display: block;
+	margin: 30px auto;
+}
+
+.intro h2 {
+	text-align: center;
+}
+
+.intro p {
+	text-align: center;
+	font-size: 16px;
+	margin: 30px;
+	letter-spacing: .5px;
+	font-family: Roboto, Tahoma;
+	font-weight: 300;
+}
+
+.intro-about {
+	padding-left: 4%;
+	height: 100px;
+}
+
+.intro-about p {
+	font-family: Abel, Helvetica, sans-serif;
+  	font-size: 20px;
+}
+
+.course {
+	font-size: 12px;
+}
+
+
+.box {
+	float: left;
+	width: 29%;
+	margin: 1%;
+	background-color: #06D6A0;
+}
+
+.box a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.box:hover {
+	background-color: #93B7BE;
+}
+
+.work-experience h2 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.work-experience h4 {
+	font-family: Verdana;
+
+}
+
+.work {
+	margin: 40px;
+	height: 100%;
+}
+
+.work-logo {
+	width: 25%;
+	padding-left: 48%;
+	height: 100%;
+}
+
+.work-desc {
+	font-family: Roboto, Tahoma;
+	font-weight: 300;
+	height:100%;
+	font-size: 13px;
+	text-align: center;
+}
+
+h4 a {
+	text-decoration: none;
+	color: #000;
+}
+
+h4 a:hover {
+	color: #C6DABF;
+}
+
+.work-logo img {
+	display: inline;
+	width: 60px;
+	margin: 0 auto;
+	padding-bottom: 5px;
+}
+
+.skills {
+	text-align: center;
+	padding: 20px 200px 100px 200px;
+}
+
+.skills p {
+	font-family: Roboto, Tahoma;
+	font-weight: 300;
+}
+
+.skills-intro {
+	padding: 30px;
+}
+
+.youtube {
+	font-size: 20px;
+	background-color: #FFEE88;
+}
+
+.skills-intro a:hover {
+	background-color: #06D6A0;
+}
+
+.skills-intro a {
+	text-decoration: none;
+	color: #000;
+}
+
+.outer-bar {
+	height: 40px;
+	width: 100%;
+	border: 1px none #C6DABF; 
+}
+
+.inner-bar {
+	height: 40px;
+	width: 50%;
+}
+
+.inner-bar p {
+	text-transform: uppercase;
+	line-height: 40px;
+}
+
+.html {
+	background-color: #C6DABF;
+	width: 90%;
+}
+
+.html p {
+	color: #fff;
+}
+
+.css {
+	background-color: #F45B69;
+	width:70%;
+}
+
+.css p {
+	color: #fff;
+}
+
+.video {
+	background-color: #456990;
+	width: 85%;
+}
+
+.video p {
+	color: #fff;
+}
+
+.ecomm {
+	background-color: #FFBA49;
+	width: 75%;
+}
+.ecomm p {
+	color: #fff;
+}
+
+.wordp {
+	background-color: #A4A9AD;
+	width: 58%;
+}
+
+.wordp p {
+	color: #fff;
+}
+
+footer {
+	height: 70px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+footer p {
+	line-height: 60px;
+	font-family: Roboto, Tahoma;
+	font-weight: 300;
+	font-size: 11px;
+}
+
+footer span {
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
