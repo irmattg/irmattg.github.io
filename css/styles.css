@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -51,7 +51,7 @@ table {
 
 h1 {
 	font-size: 64px;
-	font-family: Oswald, Tahoma;
+	font-family: 'Roboto Thin', Tahoma;
 	font-weight: 400;
 	font-size: 130px;
 }
@@ -59,7 +59,7 @@ h1 {
 h2 {
 	font-size: 53px;
 	color: #009DDC;
-	font-family: Oswald, Tahoma;
+	font-family: 'Roboto Thin', Tahoma;
 	font-weight: 300;
 
 }
@@ -84,7 +84,7 @@ nav ul li {
 	display: inline;
 	line-height: 70px;
 	margin: 10px;
-	font-family: Roboto, Tahoma;
+	font-family: 'Roboto Thin', Tahoma;
 	font-weight: 300;
 	font-size: 16px;
 }
@@ -189,7 +189,7 @@ nav ul li a:hover {
 }
 
 .work-desc {
-	font-family: Roboto, Tahoma;
+	font-family: 'Roboto Thin', Tahoma;
 	font-weight: 300;
 	height:100%;
 	font-size: 13px;
@@ -218,7 +218,7 @@ h4 a:hover {
 }
 
 .skills p {
-	font-family: Roboto, Tahoma;
+	font-family: 'Roboto Thin', Tahoma;
 	font-weight: 300;
 }
 
@@ -243,7 +243,7 @@ h4 a:hover {
 .outer-bar {
 	height: 40px;
 	width: 100%;
-	border: 1px none #C6DABF; 
+	border: 1px none #C6DABF;
 }
 
 .inner-bar {
@@ -314,7 +314,7 @@ footer a {
 
 footer p {
 	line-height: 60px;
-	font-family: Roboto, Tahoma;
+	font-family: 'Roboto Thin', Tahoma;
 	font-weight: 300;
 	font-size: 11px;
 }
@@ -323,13 +323,10 @@ footer span {
 	color: red;
 }
 
+@font-face {
+	font-family: 'Roboto Thin';
+	src:url('../font/Roboto-Thin.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 
-
-
-
-
-
-
-
-
-
+}
